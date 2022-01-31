@@ -3,7 +3,6 @@ def arr_to_map(arr, w, h):
     for i in range(w):
         for i1 in range(h):
             print(arr[i][i1])
-            s = s + str(arr[i][i1])
             if arr[i][i1] == 1 or arr[i][i1] == 2:
                 s = s + "🟦"
                 print("1/2")
@@ -28,7 +27,7 @@ def arr_to_map(arr, w, h):
                 s = s + "⁉"
                 print("!?")
 
-        s = s + "\n."
+        s = s + "\n"
 
     return s
 

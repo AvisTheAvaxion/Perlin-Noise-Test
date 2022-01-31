@@ -15,7 +15,7 @@ def run():
         # We check there is actually content first, if no message content exists,
         # we would get `None' here.
 
-        w, h = 16, 16
+        w, h = 12, 12
         matrix = [[0 for x in range(w)] for y in range(h)]
 
         if event.is_bot or not event.content:
