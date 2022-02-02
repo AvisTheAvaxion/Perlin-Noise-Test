@@ -1,4 +1,4 @@
-import random
+# import random
 # import discord_bot
 
 # discord_bot.run()
@@ -67,5 +67,6 @@ def run():
             await event.message.respond("🟩🟦🟨⬜⬛⁉")
 
     bot.run()
+
 
 run()
