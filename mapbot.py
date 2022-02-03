@@ -2,7 +2,7 @@
 # import discord_bot
 
 # discord_bot.run()
-'''
+
 
 import hikari
 import hidden
@@ -70,6 +70,3 @@ def run():
 
 
 run()
-'''
-import mapbot
-mapbot.run()
